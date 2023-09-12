@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.container{
+  margin: auto;
+  width: 50%;
+  background-color: whitesmoke;
+  padding-left: 15px;
+  margin-top: 10%;
+  box-shadow: 5px 10px black;
+  border-radius: 10px;
+
+}
+
+.card_ele{
+  margin: auto;
+  width: 70%;
+}
+
+img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 10px 0px 0px blue;
+}
+
+.angle{
+  border: none;
+  outline: none;
+  font-size: 25px;
+  color: blue;
+  background: none;
+  cursor: pointer;
+  font-weight:bolder;
+}
+
+.btn_surprise{
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  border-radius: 2px;
+  background-color: lightblue;
+  color: blue;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+.btn_surprise:hover{
+  background-color: darkblue;
+  cursor: pointer;
+  color: wheat;
+  letter-spacing: 2px;
+}
+
+.head > h3{
+  color: blue;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.card_ele > h1{
+  font-size: 30px;
+  font-weight: 100;
+}
+.btn{
+  margin: auto;
+  width: 30%;
+}
+
+.head{
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+.angle:hover{
+  color: lightblue;
+}
+
+.icon{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 30px;
+  color: white;
+  border: 1px solid blue;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-bottom: 130px;
+  z-index: 1;
+}
